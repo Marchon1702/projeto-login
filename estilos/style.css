@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/* Método mobile first */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #4B939A;
+}
+
+main {
+    width: 250px;
+    height: 550px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+div#fundo {
+    height: 228px;
+    background-image: url(../imagens/biulding.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main > h1, p {
+    padding: 5px;
+}
+
+main > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+form {
+    margin: 15px;
+}
+
+form .q1, form .q2 {
+    height: 20px;
+    padding: 8px;
+    background-color: #602c82e3;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+}
+
+span#icologin, span#icosenha {
+    position: relative;
+    top: -3px;
+    left: -5px;
+    color: white;
+}
+
+input#login, input#senha {
+    position: relative;
+    top: -10px;
+    height: 30px;
+    background-color: #b8f9ff;
+    border-radius: 10px;
+    border: none;
+}
+
+input#entrar {
+    border: 1px solid #76ecf7;
+    background-color: #96f2fa;
+    width: 220px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+input#entrar:hover {
+    background-color: white;
+    color: #004f57;
+    text-shadow: none;
+}
+
+div.esqsenha {
+    display: block;
+    margin-top: 15px;
+    width: 220px;
+}
+
+a {
+    display: block;
+    margin: auto;
+    padding-bottom: 5px;
+    font-size: 0.8em;
+    text-decoration: none;
+    background-color: #cffbff;
+    color: #004f57;
+    border: 1px solid #4df0ff;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #004f57;
+    color: white;
+}
+
+span#carta {
+    position: relative;
+    top: 3px;
+    left: 10px;
+    font-size: 15px;
+}
+
+
+
+
