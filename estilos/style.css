@@ -53,15 +53,13 @@ form .q1, form .q2 {
 }
 
 span#icologin, span#icosenha {
-    position: relative;
-    top: -3px;
-    left: -5px;
     color: white;
 }
 
 input#login, input#senha {
     position: relative;
     top: -10px;
+    width: 80%;
     height: 30px;
     background-color: #b8f9ff;
     border-radius: 10px;
