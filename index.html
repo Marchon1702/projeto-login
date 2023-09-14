@@ -8,35 +8,37 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
 <body>
     <main>
-        <div id="fundo">
-        </div>
-        <h1>Login</h1>
-        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-        <form method="post" autocomplete="on">
-                <div class="q1">
-                    <label for="login"><span id="icologin" class="material-symbols-outlined">
-                        person
-                        </span></label>
-                    <input type="email" name="login" id="login" autocomplete="email" placeholder="  Digite seu e-mail">
-                </div>
-                <div class="q2">
-                    <label for="senha"><span id="icosenha" class="material-symbols-outlined">
-                        vpn_key
-                        </span></label>
-                        <input type="password" name="senha" id="senha" placeholder="  Digite sua senha">
-                </div>     
-                <input type="submit" value="Entrar" id="entrar">
-                
-                <div class="esqsenha">
-                    <a href="#"> Esqueci a senha <span id="carta" class="material-symbols-outlined">
-                        mail
-                        </span></a>
-                </div>
-        </form>
+            <div id="fundo" class="maior">
+            </div>
+            <section id="coluna" class="maior">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form method="post" autocomplete="on">
+                        <div class="q1">
+                            <label for="login"><span id="icologin" class="material-symbols-outlined">
+                                person
+                                </span></label>
+                            <input type="email" name="login" id="login" autocomplete="email" placeholder="  Digite seu e-mail">
+                        </div>
+                        <div class="q2">
+                            <label for="senha"><span id="icosenha" class="material-symbols-outlined">
+                                vpn_key
+                                </span></label>
+                                <input type="password" name="senha" id="senha" placeholder="  Digite sua senha">
+                        </div>
+                        <input type="submit" value="Entrar" id="entrar">
+            
+                        <div class="esqsenha">
+                            <a href="#"> Esqueci a senha <span id="carta" class="material-symbols-outlined">
+                                mail
+                                </span></a>
+                        </div>
+                </form>
+            </section>
     </main>
 </body>
 </html>

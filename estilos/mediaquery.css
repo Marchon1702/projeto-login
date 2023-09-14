@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* MIDIAS MAIORES */
+
+@media print {
+    * {
+        text-shadow: none;
+}
+
+input#entrar {
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    width: 220px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+a {
+    display: block;
+    margin: auto;
+    padding-bottom: 5px;
+    font-size: 0.8em;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+main::after {
+    content: 'CONTEÚDO IMPRESSO DO SITE FEITO POR MATHEUS MARCHON.';
+}
+}
+
+@media screen and (min-width:768px) { /*TABLETS*/
+    body {
+        height: 100vh;
+        background-image: linear-gradient(to bottom, #5F2D82, #499F9C);
+    }
+    
+    main {
+        display: flex;
+        text-align: center;
+        width: 740px;
+        height: 300px;
+        margin: auto;
+        margin-top: 150px;
+        text-align: end;
+        background-color: white;
+        border-radius: none;
+    }
+
+    #coluna {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    div#fundo {
+        display: flex;
+        width: 500px;
+        height: 100%;
+        background-image: url(../imagens/biulding.jpg);
+        background-position: right center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    form {
+        margin: auto;
+    }
+
+    form .q1, form .q2 {
+        height: 20px;
+        width: 400px;
+        padding: 8px;
+        background-color: #602c82e3;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px black;
+    }
+
+    input#entrar {
+        border: 1px solid #76ecf7;
+        background-color: #96f2fa;
+        width: 410px;
+        height: 30px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 3px black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;
+    }
+
+    .esqsenha, a {
+        width: 400px;
+        padding-left: 5px;
+    }
+
+}
+
