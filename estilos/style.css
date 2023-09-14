@@ -30,7 +30,7 @@ div#fundo {
     border-radius: 10px 10px 0px 0px;
 }
 
-main > h1, p {
+main h1, p {
     padding: 5px;
 }
 
